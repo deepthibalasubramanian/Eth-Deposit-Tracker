@@ -4,7 +4,7 @@ const { infuraProjectId, mnemonic } = require("./secrets.json"); // Create secre
 
 const provider = new HDWalletProvider(
   mnemonic,
-  `https://rinkeby.infura.io/v3/${infuraProjectId}`
+  `https://mainnet.infura.io/v3/${infuraProjectId}`
 );
 const web3 = new Web3(provider);
 
