@@ -2,3 +2,5 @@ node_modules/
 # Ignore secrets.json
 secrets.json
 .env
+
+client/node_modules
